@@ -1,0 +1,23 @@
+{
+  "name": "mongodb-ar-geometry",
+  "version": "1.0.0",
+  "description": "MongoDB importer for AR departments in GeoJSON",
+  "main": "parser.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nahue086/departamentos_argentina.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nahue086/departamentos_argentina/issues"
+  },
+  "homepage": "https://github.com/nahue086/departamentos_argentina#readme",
+  "dependencies": {
+    "@turf/turf": "^5.1.6",
+    "mongodb": "^3.4.1"
+  }
+}
